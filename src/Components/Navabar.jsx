@@ -10,9 +10,9 @@ const Navabar = () => {
 
     }
   return (
-   <nav className='gradbg p-3'>
+   <nav className='p-3 flex justify-end'>
     <ul className='w-fit'>
-        <li className='bg-white p-2 rounded-xl font-bold' onClick={handleLogout}><p>Log out</p></li>
+        <li className=' p-2 rounded-lg font-bold hover:bg-green-500 hover:text-white cursor-pointer ' onClick={handleLogout}><p>Log out</p></li>
     </ul>
    </nav>
   )
