@@ -1,0 +1,22 @@
+.ant-input{
+   background-color: transparent;
+   color:inherit;
+   border: none;
+  
+   
+}
+
+.gradbg{
+  background: rgb(1,126,139);
+background: linear-gradient(174deg, rgba(1,126,139,1) 0%, rgba(1,177,177,1) 100%);
+}
+
+.wavebg{
+   background-image: url('wavebg.svg');
+   background-size:cover;
+   background-position: 0;
+   
+}
+.ant-picker-suffix{
+   color:white;
+}
